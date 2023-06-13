@@ -34,5 +34,5 @@ app
 
 // Launch server (locally) on port 3001
 app.listen(PORT, () =>
-  console.log(`View app at http://localhost:${PORT}`)
+    console.log(`View app at http://localhost:${PORT}`)
 );
