@@ -1,7 +1,7 @@
 const notes = require('express').Router();
 
 // Import helpers
-const { readFromFile, readAndAppend, writeToFile } = require('../helpers/fsUtils');
+const { readFromFile, readAndAppend, writeToFile, deleteContent } = require('../helpers/fsUtils');
 
 // GET route for getting all notes
 notes.get('/', (req, res) => {
@@ -31,15 +31,21 @@ notes.post('/', (req, res) => {
     });
 
 // DELETE route for deleting notes
-notes.delete('/', (req, res) => {
+notes.delete('/:id', (req, res) => {                         // Delete note with given id
         console.info(`${req.method} request received for notes`);  // Log POST request
 
-        console.log(req.body);
+        const id = req.params;   // Get the id from request and create a variable for it
         
-        const id = req.params.id;   // Get the id from request and create a variable for it
-
-
+        if (id) {                                               // If id exists
+            deleteContent(id, './src/db/notes.json');           // Delete note with id from notes.json file    
+            res.json(`Note deleted successfully`)               // Log success        
+        } else {                                                // Error handling
+            res.error('Error deleting note');                   // Log error
+        }
     });
+
+
+
 
 
 

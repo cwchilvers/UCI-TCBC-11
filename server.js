@@ -32,7 +32,7 @@ app
         res.sendFile(path.join(__dirname, '/public/pages/404.html'))    // Load 404 page (404.html) when user goes to any non-existent address
     );
 
-// Launch server (locally) on port 3001
+// Launch server (locally) on port 3000
 app.listen(PORT, () =>
     console.log(`View app at http://localhost:${PORT}`)
 );
