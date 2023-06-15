@@ -31,30 +31,19 @@ const readAndAppend = (content, file) => {
   });
 };
 
-const deleteContent = (id, file) => { 
+const deleteContent = (note, file) => { 
   // Delete object with given id from notes.json file
   fs.readFile(file, 'utf8', (err, data) => {
     if (err) {
       console.error(err);
     } else {
       let parsedData = JSON.parse(data);    // Parse data from notes.json file
-      console.log(id);
-      console.log(parsedData);
 
       // look for object with given id inside parsedData
       for (let i = 0; i < parsedData.length; i++) {
-          console.log("Running for loop..");
-
           // If object with given id is found
-          if (parsedData[i].id === id) {
-              console.log("Running if statement...");
-
-
-
-              console.log(parsedData[i]);
-              parsedData.splice(i, 1);    // Delete object with given id from parsedData
-
-              console.log(parsedData);
+          if (parsedData[i].id === note.id) {
+              parsedData.splice(i, 1);        // Delete object with given id from parsedData array
               writeToFile(file, parsedData);  // Write parsedData to notes.json file
               break;
           }
