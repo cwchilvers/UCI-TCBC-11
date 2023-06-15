@@ -23,7 +23,7 @@ notes.post('/', (req, res) => {
                 id
             };
 
-            readAndAppend(newNote, './src/db/notes.json');      // Append new note object to notes.json
+            readAndAppend(newNote, './src/db/notes.json');      // Append new note object in notes.json file
             res.json(`Note added successfully`)                 // Log success
         } else {                                                // Error handling
             res.error('Error adding note');                     // Log error
@@ -33,6 +33,11 @@ notes.post('/', (req, res) => {
 // DELETE route for deleting notes
 notes.delete('/', (req, res) => {
         console.info(`${req.method} request received for notes`);  // Log POST request
+
+        console.log(req.body);
+        
+        const id = req.params.id;   // Get the id from request and create a variable for it
+
 
     });
 
