@@ -3,9 +3,9 @@ const express = require('express');
 const path = require('path');
 
 // Routers
-const api = require('./routes/index');
+const api = require('./src/routes/index');
 
-const PORT = 3001;      // Port # where server will be hosted at
+const PORT = 3000;      // Port # where server will be hosted at
 const app = express();  
 
 // .use
