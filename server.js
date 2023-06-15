@@ -19,7 +19,7 @@ app
 app
     // GET request for main page
     .get('/', (req, res) =>
-        res.sendFile(path.join(__dirname, '/public/index.html'))        // Load main page (index.html) when user goes to localhost:3002
+        res.sendFile(path.join(__dirname, '/public/pages/index.html'))        // Load main page (index.html) when user goes to localhost:3002
     )
 
     // GET request for notes page
