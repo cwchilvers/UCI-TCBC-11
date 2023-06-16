@@ -23,7 +23,7 @@ notes
         };
 
         readAndAppend(newNote, './src/db/notes.json');      // Append new note object in notes.json file
-        res.json();                                         // Send response
+        res.json("Note created successfully");              // Send response
     })
 
     // DELETE route for deleting notes
@@ -33,7 +33,7 @@ notes
         const id = req.params;   // Get the id from request and create a variable for it
         
         deleteContent(id, './src/db/notes.json');           // Delete note with id from notes.json file    
-        res.json();                                         // Send response                  
+        res.json("Note deleted successfully");              // Send response                  
     });
 
 module.exports = notes;
