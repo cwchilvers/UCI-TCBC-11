@@ -20,5 +20,5 @@ A couple tests were done to check if error handling in the scenarios of both a f
 ![Screenshot 2023-06-15 210855](https://github.com/cwchilvers/Node-JS-Note-Taker/assets/59628271/9e97bdbf-4b9a-4d78-893a-489c22f3e1ce)
 
 ## Deployed Web App
-[Link 1](https://node-js-note-taker-s6krg.ondigitalocean.app/)
-[Link 1 (if 1st link doesn't work)](https://apps.cwchilvers.io)
+[Link 1](https://node-js-note-taker-s6krg.ondigitalocean.app/)\
+[Link 2 (if 1st link doesn't work)](https://apps.cwchilvers.io)
