@@ -4,7 +4,7 @@
 * [Description](#description)
 * [Screenshots](#screenshots)
 * [Tests](#tests)
-* [Video Demonstration](#video-demonstration)
+* [Deployed Web App](#deployed-web-app)
 
 ## Description
 Application built in Node JS which lets a user create notes and save them. User has the ability to view saved notes as well as delete them. If the user goes to a non-existent page address, the user is shown a 404 page. 
@@ -17,6 +17,6 @@ Application built in Node JS which lets a user create notes and save them. User 
 ## Tests
 A couple tests were done to check if error handling in the scenarios of both a failed note submission and failed note deletion was working.
 
-![Screenshot 2023-06-15 205247](https://github.com/cwchilvers/Node-JS-Note-Taker/assets/59628271/1bc911d6-661c-4156-bd8f-2d741c2423a3)
+![Screenshot 2023-06-15 210855](https://github.com/cwchilvers/Node-JS-Note-Taker/assets/59628271/9e97bdbf-4b9a-4d78-893a-489c22f3e1ce)
 
 ## Deployed Web App

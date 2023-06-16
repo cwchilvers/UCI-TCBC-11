@@ -6,6 +6,6 @@ describe("Requests", () => {
         expect(requests.submitNote('', '')).toEqual("failure");
     })
     test("deleting a note should fail" , () => {
-        expect(requests.submitNote('', '')).toEqual("failure");
+        expect(requests.deleteNote('', '')).toEqual("failure");
     })
 });
