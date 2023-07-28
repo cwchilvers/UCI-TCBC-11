@@ -1,25 +1,48 @@
-# Node JS Note Taker
+<h1 align="center">
+  Note Taker
+</h1>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License">
+</p>
+
+<h4 align="center">A simple Note Taker web application.</h4>
 
 ## Table of Contents
-* [Description](#description)
-* [Screenshots](#screenshots)
-* [Tests](#tests)
-* [Deployed Web App](#deployed-web-app)
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Technologies Used](#technologies-used)
+5. [License](#license)
+6. [Credits](#credits)
+7. [Contact Information](#contact-information)
 
 ## Description
-Application built in Node JS which lets a user create notes and save them. User has the ability to view saved notes as well as delete them. If the user goes to a non-existent page address, the user is shown a 404 page. 
+This project is a simple Note Taker web application. The application allows the user to create, view, and delete notes. The application uses an Express.js back end and saves and retrieves note data from a JSON file.
 
-## Screenshots
-![Screenshot 2023-06-15 210139](https://github.com/cwchilvers/Node-JS-Note-Taker/assets/59628271/9f9dac85-8b08-4fc9-a59c-d7be1684bff1)
-![Screenshot 2023-06-15 204523](https://github.com/cwchilvers/Node-JS-Note-Taker/assets/59628271/e98f4325-c001-4bc0-a95a-573dcc0d48c2)
-![Screenshot 2023-06-15 204554](https://github.com/cwchilvers/Node-JS-Note-Taker/assets/59628271/4cfe268b-99cf-4c8d-9e34-300a9b0bb7a2)
+## Installation
+1. Clone the repository locally.
+2. Navigate to the root folder of the repository.
+3. Run `npm install` to install the required dependencies.
 
-## Tests
-A couple tests were done to check if error handling in the scenarios of both a failed note submission and failed note deletion was working.
+## Usage
+1. Run `npm start` to start the server.
+2. Navigate to `http://localhost:3000` in your web browser to use the application.
 
-![Screenshot 2023-06-15 210855](https://github.com/cwchilvers/Node-JS-Note-Taker/assets/59628271/9e97bdbf-4b9a-4d78-893a-489c22f3e1ce)
+## Technologies Used
+* Node.js
+* Express.js
 
-## Deployed Web App
-App can be accessed from two locations in case one doesn't work:\
-[Link 1 (DigitalOcean)](https://node-js-note-taker-s6krg.ondigitalocean.app/)\
-[Link 2 (Self-Hosted)](https://apps.cwchilvers.io)
+## License
+This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/mit/) page for details.
+
+## Credits
+* [Express.js](https://expressjs.com/)
+
+## Contact Information
+<p align="center">
+    <a href="mailto:cwchilvers@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
+    <a href="https://github.com/cwchilvers"><img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub"></a>
+</p>
