@@ -34,12 +34,14 @@ This project is a simple Note Taker web application. The application allows the 
 ## Technologies Used
 * Node.js
 * Express.js
+* Chalk
 
 ## License
 This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/mit/) page for details.
 
 ## Credits
 * [Express.js](https://expressjs.com/)
+* [Chalk](https://www.npmjs.com/package/chalk)
 
 ## Contact Information
 <p align="center">
