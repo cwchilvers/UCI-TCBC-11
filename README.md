@@ -3,8 +3,9 @@
 </h1>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge" alt="JavaScript">  
   <img src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js">
+  <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge" alt="Express.js">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License">
 </p>
 
@@ -34,15 +35,13 @@ This project is a simple Note Taker web application. The application allows the 
 2. Navigate to `http://localhost:3000` in your web browser to use the application.
 
 ## Technologies Used
-* Node.js
-* Express.js
-* Chalk
+* [Node.js](https://nodejs.org/)
+* [Express.js](https://expressjs.com/)
 
 ## License
 This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/mit/) page for details.
 
 ## Credits
-* [Express.js](https://expressjs.com/)
 * [Chalk](https://www.npmjs.com/package/chalk)
 
 ## Contact Information
