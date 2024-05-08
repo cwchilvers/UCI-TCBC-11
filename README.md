@@ -16,9 +16,9 @@
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Technologies Used](#technologies-used)
-5. [License](#license)
-6. [Credits](#credits)
-7. [Contact Information](#contact-information)
+5. [Credits](#credits)
+6. [Contact Information](#contact-information)
+7. [License](#license)
 
 ## Description
 This project is a simple Note Taker web application. The application allows the user to create, view, and delete notes. The application uses an Express.js back end and saves and retrieves note data from a JSON file.
