@@ -22,8 +22,6 @@
 ## Description
 This project is a simple Note Taker web application. The application allows the user to create, view, and delete notes. The application uses an Express.js back end and saves and retrieves note data from a JSON file.
 
-[Original Starter Code](https://github.com/coding-boot-camp/miniature-eureka.git)
-
 ## Installation
 1. Clone the repository locally.
 2. Navigate to the root folder of the repository.
@@ -39,8 +37,8 @@ This project is a simple Note Taker web application. The application allows the 
 * [Express.js](https://expressjs.com/)
 
 ## Credits
-* [Chalk](https://www.npmjs.com/package/chalk)
 * [Original Starter Code](https://github.com/coding-boot-camp/cautious-meme.git)
+* [Chalk](https://www.npmjs.com/package/chalk)
 
 ## Contact Information
 <p align="center">
