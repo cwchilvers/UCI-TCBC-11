@@ -39,9 +39,6 @@ This project is a simple Note Taker web application. The application allows the 
 * [Node.js](https://nodejs.org/)
 * [Express.js](https://expressjs.com/)
 
-## License
-This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/mit/) page for details.
-
 ## Credits
 * [Chalk](https://www.npmjs.com/package/chalk)
 
@@ -50,3 +47,6 @@ This project is licensed under the MIT License. See the [MIT License](https://op
     <a href="mailto:cwchilvers@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
     <a href="https://github.com/cwchilvers"><img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub"></a>
 </p>
+
+## License
+This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/mit/) page for details.
