@@ -35,6 +35,7 @@ This project is a simple Note Taker web application. The application allows the 
 2. Navigate to `http://localhost:3000` in your web browser to use the application.
 
 ## Technologies Used
+* JavaScript
 * [Node.js](https://nodejs.org/)
 * [Express.js](https://expressjs.com/)
 
