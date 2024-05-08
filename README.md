@@ -18,7 +18,6 @@
 4. [Technologies Used](#technologies-used)
 5. [Credits](#credits)
 6. [Contact Information](#contact-information)
-7. [License](#license)
 
 ## Description
 This project is a simple Note Taker web application. The application allows the user to create, view, and delete notes. The application uses an Express.js back end and saves and retrieves note data from a JSON file.
@@ -41,12 +40,10 @@ This project is a simple Note Taker web application. The application allows the 
 
 ## Credits
 * [Chalk](https://www.npmjs.com/package/chalk)
+* [Original Starter Code](https://github.com/coding-boot-camp/cautious-meme.git)
 
 ## Contact Information
 <p align="center">
     <a href="mailto:cwchilvers@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"></a>
     <a href="https://github.com/cwchilvers"><img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" alt="GitHub"></a>
 </p>
-
-## License
-This project is licensed under the MIT License. See the [MIT License](https://opensource.org/licenses/mit/) page for details.
